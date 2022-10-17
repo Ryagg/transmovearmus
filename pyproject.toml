@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "transmovearmus"
+version = "0.1.0"
+description = "Relocation organization tool"
+authors = ["Ryagg <58631455+Ryagg@users.noreply.github.com>"]
+license = "Apache Licence 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.2.2"
+autopep8 = "^1.7.0"
+pylint-flask = "^0.6"
+dnspython = "^2.2.1"
+Flask-PyMongo = "^2.3.0"
+pycodestyle = "^2.9.1"
+flask-talisman = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+Flask-SeaSurf = "^1.1.1"
+pytest = "^7.1.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
